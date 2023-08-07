@@ -16,7 +16,7 @@ The negative images essential for training are automatically downloaded and unco
 
 A custom JavaScript code is utilized to collect 400 images comprising positives and anchors. This tailored approach ensures that the data collection process is precisely aligned with the project's unique requirements.
 
-![Capturing Anchors and Positives](images/01_Facial_Verification/Capturing Anchors and Positives.JPG)
+![Capturing Anchors and Positives](images/01_Facial_Verification/Capturing_Anchors_and_Positives.JPG)
 
 ### 4. Data Augmentation
 
