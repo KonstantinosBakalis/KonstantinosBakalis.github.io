@@ -1,6 +1,6 @@
 ## Facial Verification with a Siamese Network
 
-**Project description:** This facial verification app utilizes a Siamese network to verify images against an anchor image. Developed in Google Colab and employing TensorFlow, Keras, OpenCV-Python, Matplotlib, and tqdm, the app builds on the innovative methodology outlined in a scientific paper. The entire process, from data collection to model engineering and final deployment, is orchestrated seamlessly.
+**Project description:** This facial verification app utilizes a Siamese network to verify images against an anchor image. Developed in Google Colab and employing TensorFlow, Keras, OpenCV-Python, Matplotlib, and tqdm, the app builds on the innovative methodology outlined in a scientific paper.
 
 ### 1. Automatic Creation of Folder Structures
 
