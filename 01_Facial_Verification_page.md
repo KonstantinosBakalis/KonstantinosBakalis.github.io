@@ -9,11 +9,14 @@ A well-organized folder structure is automatically generated to streamline the h
 ### 2. Download and Uncompress Negative Images
 
 The negative images essential for training are automatically downloaded and uncompressed from [UMass LFW dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz). This automation speeds up the data preparation phase.
+
 ![Downloading negatives](images/01_Facial_Verification/Downloading_negatives.JPG)
 
 ### 3. Javascript for Collecting Positives and Anchors
 
 A custom JavaScript code is utilized to collect 400 images comprising positives and anchors. This tailored approach ensures that the data collection process is precisely aligned with the project's unique requirements.
+
+![Capturing Anchors and Positives](images/01_Facial_Verification/Capturing Anchors and Positives.JPG)
 
 ### 4. Data Augmentation
 
