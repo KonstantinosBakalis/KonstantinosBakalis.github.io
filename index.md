@@ -4,7 +4,7 @@
 
 ### Computer Vision 
 
-[Facial Verification with a Siamese Network](/sample_page)
+[Facial Verification with a Siamese Network](/01_Facial_Verification_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
