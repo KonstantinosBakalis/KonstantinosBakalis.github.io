@@ -1,10 +1,14 @@
 title: Konstantinos Bakalis # your name (or website title) here
 logo: "/images/IMG_0517.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Aspiring data scientist 
-  <br><br>
-  looking for the next exciting opportunity 
-  <br><br>
+  Passionate Data Scientist in the Making
+<br><br>
+With a dedication to analytical problem-solving and a keen eye for detail, I'm on the hunt for the next exhilarating opportunity that challenges me to grow and innovate. My journey in data science is driven by curiosity and the desire to transform raw data into actionable insights.
+<br><br>
+Whether it's predictive analytics, machine learning, or data visualization, I'm ready to apply my skills and learning to make a real impact.
+<br><br>
+Connect with me to explore possibilities, or <a href="https://www.linkedin.com/in/konstantinosbakalis/">view my LinkedIn profile</a> to learn more about my professional background and projects.
+<br><br>
   <a href="https://www.linkedin.com/in/konstantinosbakalis/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
