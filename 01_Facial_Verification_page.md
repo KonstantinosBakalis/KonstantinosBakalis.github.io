@@ -59,6 +59,10 @@ Training is conducted using the binary cross-entropy loss function and the Adam 
 
 The trained Siamese network model is saved securely, enabling deployment and further refinement.
 
-### 10. Building a Python App in Visual Studio Code
+### 10. Building a Python App
 
-The project culminates in building a Python app using Visual Studio Code. This app integrates the trained model, offering a user-friendly interface for real-world facial verification.
+The project culminates in building a Python app using Kivy, OpenCV, and TensorFlow. The app interfaces with a webcam to provide real-time facial verification. By capturing an image and comparing it against stored verification images using a Siamese network, the app quickly determines if the face is "Verified" or "Unverified."
+
+![App verified](images/01_Facial_Verification/App_verified.JPG)
+
+![App unverified](images/01_Facial_Verification/App_unverified.JPG)
