@@ -22,25 +22,42 @@ A custom JavaScript code is utilized to collect 400 images comprising positives 
 
 Data augmentation techniques are applied to amplify the initial collection ninefold. This enrichment strengthens the model's ability to generalize from the training data to unseen faces.
 
+![Augmenting anchors and positives](images/01_Facial_Verification/Augmenting_anchors and_positives.JPG)
+
+![Augmentation_example](images/01_Facial_Verification/Augmentation_example.JPG)
+
 ### 5. Load and Preprocess Images
 
-Images are loaded and preprocessed using OpenCV-Python and other tools. The preprocessing includes normalization and other essential transformations to make the images suitable for training the Siamese network.
+Images are loaded and preprocessed using OpenCV-Python and other tools. The preprocessing includes normalization and other essential transformations to make the images suitable for training the Siamese network. A labeled dataset was created, grouping the images into categories based on distinct facial features or other relevant criteria.
+
+![Checking Labels](images/01_Facial_Verification/Checking_Labels.JPG)
 
 ### 6. Model Engineering as Specified in the Paper
 
 The app's architecture follows the specific guidelines and structure detailed in the referenced scientific paper. The use of TensorFlow and Keras libraries ensures a robust and flexible implementation.
 
+![SiameseNetwork Summary](images/01_Facial_Verification/SiameseNetwork_Summary.JPG)
+
 ### 7. Training with Binary Cross-Entropy and Adam Optimizer
 
 Training is conducted using the binary cross-entropy loss function and the Adam optimizer. These choices reflect the binary nature of the verification task and the need for efficient optimization.
 
+![Training](images/01_Facial_Verification/Training.JPG)
+
 ### 8. Precision, Recall, and Visual Results
 
-Evaluation metrics such as precision and recall, along with visual results, are presented using Matplotlib. This comprehensive analysis provides clear insights into the model's performance.
+#### Metrics
+- **Loss (0.19360544):** This is a measure of how well the neural network is performing. It quantifies the difference between the predicted outputs and the true outputs for the data. A lower loss value indicates that the model's predictions are closer to the true values. The specific loss function used depends on the task and the implementation, and it could be something like mean squared error for regression or categorical crossentropy for classification.
+- **Recall (0.9818182):** Recall is a metric used in classification to measure the proportion of actual positives that were identified correctly. In other words, out of all the positive samples, how many were correctly classified by the model? A recall of 1 would mean that all positive samples were correctly identified, while a recall of 0 would mean that no positive samples were correctly identified.
+- **Precision (0.98540145):** Precision is another metric used in classification, and it measures the proportion of identified positives that were actually correct. In other words, out of all the samples that the model classified as positive, how many were actually positive? A precision of 1 would mean that all samples classified as positive were actually positive, while a precision of 0 would mean that none of the samples classified as positive were actually positive.
+
+![High Similarity](images/01_Facial_Verification/High_Similarity.JPG)
+
+![Low Similarity](images/01_Facial_Verification/Low_Similarity.JPG)
 
 ### 9. Saving Model
 
-The trained Siamese network model is saved securely, enabling potential future deployment or further refinement.
+The trained Siamese network model is saved securely, enabling deployment and further refinement.
 
 ### 10. Building a Python App in Visual Studio Code
 
