@@ -34,9 +34,7 @@ Images are loaded and preprocessed using OpenCV-Python and other tools. The prep
 
 ### 6. Model Engineering as Specified in the Paper
 
-[Siamese Neural Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
-
-The app's architecture follows the specific guidelines and structure detailed in the referenced [scientific paper](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf). The use of TensorFlow and Keras libraries ensures a robust and flexible implementation.
+The app's architecture follows the specific guidelines and structure detailed in the referenced [Siamese Neural Networks for One-shot Image Recognition paper](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf). The use of TensorFlow and Keras libraries ensures a robust and flexible implementation.
 
 ![SiameseNetwork Summary](images/01_Facial_Verification/SiameseNetwork_Summary.JPG)
 
