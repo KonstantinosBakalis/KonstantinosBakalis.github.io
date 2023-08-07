@@ -66,3 +66,13 @@ The project culminates in building a Python app using Kivy, OpenCV, and TensorFl
 ![App verified](images/01_Facial_Verification/App_verified.JPG)
 
 ![App unverified](images/01_Facial_Verification/App_unverified.JPG)
+
+### 11. Suggestions for Improvement
+
+Based on the metrics discussed earlier, there are several opportunities for enhancing the facial verification model:
+
+- **Loss (0.19360544):** Even though the loss value is relatively low, there might be room for further reduction. Experimenting with different loss functions or fine-tuning hyperparameters could lead to improved model performance.
+- **Recall (0.9818182):** The recall is already high, indicating good identification of actual positives. However, exploring techniques to handle class imbalance or refining the positive sample selection may increase this metric further.
+- **Precision (0.98540145):** While the precision is commendable, any false positives can be further reduced by employing feature engineering, more complex model architectures, or additional regularization techniques.
+
+These suggestions, if implemented correctly, could lead to an even more robust and precise facial verification system. Continuous monitoring and validation with new and diverse data would also be vital for maintaining and enhancing the model's real-world applicability.
