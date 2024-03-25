@@ -9,7 +9,4 @@
 
 ---
 
-### Fullfilment_Analysis
 
-[Stock allocation to improve picking efficiency](/01_Facial_Verification_page.md)
-<img src="images/01_Facial_Verification/SiameseNetwork_Summary_Thumbnail.jpg?raw=true"/>
